@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/app.js",
-    "build": "tsup src",
+    "build": "tsup api",
     "dev": "nodemon api/app/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
     "prisma": "^5.8.1",
     "sucrase": "^3.35.0",
     "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
