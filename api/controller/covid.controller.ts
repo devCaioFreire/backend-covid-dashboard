@@ -1,4 +1,4 @@
-import { Response } from "express";
+import { Request, Response } from "express";
 import axios from "axios";
 import { ICoordinatesProps, ICovidProps } from "../interface/ICovid";
 
